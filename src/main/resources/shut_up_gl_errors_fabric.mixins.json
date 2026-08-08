@@ -1,9 +1,13 @@
 {
   "required": true,
-  "package": "com.example.mixin",
+  "package": "net.morgantic.shut_up_gl_error_fabric.mixin",
   "compatibilityLevel": "${java}",
   "mixins": [
-    "ExampleMixin"
+  ],
+  "client": [
+    "WindowMixin"
+  ],
+  "server": [
   ],
   "injectors": {
     "defaultRequire": 1

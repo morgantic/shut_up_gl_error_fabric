@@ -3,26 +3,16 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Fork of Shut Up GL Errors by JamCoreModding for newer Fabric versions",
   "authors": [
-    "Me!"
+    "Morgantic"
   ],
-  "contact": {
-    "homepage": "https://stonecutter.kikugie.dev/",
-    "sources": "https://codeberg.org/stonecutter/template-fabric"
-  },
   "license": "CC0-1.0",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/shut_up_gl_error_fabric/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.example.TemplateMod"
-    ]
-  },
   "mixins": [
-    "template.mixins.json"
+    "shut_up_gl_errors_fabric.mixins.json"
   ],
-  "accessWidener": "template.ct",
   "depends": {
     "fabricloader": ">=0.17",
     "minecraft": "${minecraft}"
